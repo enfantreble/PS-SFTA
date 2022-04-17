@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DefaultAssociations>
+  <Association Identifier=".3g2" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".3gp" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".3gpp" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".avi" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".complete" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GPL) source code editor" />
+  <Association Identifier=".htm" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".html" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".ico" ProgId="IrfanView.ico" ApplicationName="IrfanView 64-bit" />
+  <Association Identifier=".inf" ProgId="AppXzwr976v2e060wada4gabrk1x69h2dbwy" ApplicationName="Notepad" />
+  <Association Identifier=".ini" ProgId="AppXhk4des8gf2xat3wtyzc5q06ny78jhkqx" ApplicationName="Notepad" />
+  <Association Identifier=".jpg" ProgId="FastStone.jpg" ApplicationName="FastStone Image Viewer" />
+  <Association Identifier=".json" ProgId="VSCode.json" ApplicationName="Visual Studio Code" />
+  <Association Identifier=".lnk" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GPL) source code editor" />
+  <Association Identifier=".log" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Notepad" />
+  <Association Identifier=".m2t" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".m2ts" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".m4v" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".mht" ProgId="MSEdgeMHT" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".mhtml" ProgId="MSEdgeMHT" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".mkv" ProgId="KMPlayer64.mkv" ApplicationName="KMPlayer 64X" />
+  <Association Identifier=".mod" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".mov" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".mp4" ProgId="KMPlayer64.mp4" ApplicationName="KMPlayer 64X" />
+  <Association Identifier=".mp4v" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".mpv2" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".mts" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".ogx" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".pdf" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".png" ProgId="paint.net.1" ApplicationName="paint.net" />
+  <Association Identifier=".ps1" ProgId="AppXxf01pj590w7z9mxmyv3nx0a9ewj3e51g" ApplicationName="Notepad" />
+  <Association Identifier=".psd1" ProgId="AppXc9vj55m1n3559gcjff0scsqeket80zp7" ApplicationName="Notepad" />
+  <Association Identifier=".psm1" ProgId="AppX1b0e9ytcwx0wcmvkdey0h6af04t1ta3z" ApplicationName="Notepad" />
+  <Association Identifier=".scp" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Notepad" />
+  <Association Identifier=".shtml" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".svg" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".tif" ProgId="PhotoViewer.FileAssoc.Tiff" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".tiff" ProgId="PhotoViewer.FileAssoc.Tiff" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".tod" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".TS" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".TTS" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".txt" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Notepad" />
+  <Association Identifier=".url" ProgId="InternetShortcut" ApplicationName="Internet Browser" />
+  <Association Identifier=".walker" ProgId="Applications\GUP.exe" ApplicationName="WinGup for Notepad++" />
+  <Association Identifier=".webp" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".wm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".wmv" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier=".wsb" ProgId="Windows.Sandbox" ApplicationName="Windows Sandbox" />
+  <Association Identifier=".wtx" ProgId="AppX4ztfk9wxr86nxmzzq47px0nh0e58b8fw" ApplicationName="Notepad" />
+  <Association Identifier=".xht" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".xhtml" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier=".xvid" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" ApplicationName="Movies &amp; TV" />
+  <Association Identifier="bingmaps" ProgId="AppXp9gkwccvk6fa6yyfq3tmsk8ws2nprk1p" ApplicationName="Maps" />
+  <Association Identifier="ftp" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier="http" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier="https" ProgId="ChromiumHTM.SYVTQGCNKNMADJ5URZYUONLUWY" ApplicationName="Chromium" />
+  <Association Identifier="mailto" ProgId="AppXydk58wgm44se4b399557yyyj1w7mbmvd" ApplicationName="Mail" />
+  <Association Identifier="microsoft-edge" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="microsoft-edge-holographic" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="ms-xbl-3d8b930f" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+  <Association Identifier="mswindowsvideo" ProgId="AppX6w6n4f8xch1s3vzwf3af6bfe88qhxbza" ApplicationName="Movies &amp; TV" />
+  <Association Identifier="read" ProgId="MSEdgeHTM" ApplicationName="Microsoft Edge" />
+</DefaultAssociations>

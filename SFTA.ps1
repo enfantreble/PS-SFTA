@@ -60,15 +60,15 @@ function Get-FTA {
     Write-Output $assocFile
   }
   else {
-    Write-Verbose "Get File Type Association List"
+    Write-Verbose 'Get File Type Association List'
 
     $assocList = Get-ChildItem HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\* |
-    ForEach-Object {
-      $progId = (Get-ItemProperty "$($_.PSParentPath)\$($_.PSChildName)\UserChoice" -ErrorAction SilentlyContinue).ProgId
-      if ($progId) {
-        "$($_.PSChildName), $progId"
+      ForEach-Object {
+        $progId = (Get-ItemProperty "$($_.PSParentPath)\$($_.PSChildName)\UserChoice" -ErrorAction SilentlyContinue).ProgId
+        if ($progId) {
+          "$($_.PSChildName), $progId"
+        }
       }
-    }
     Write-Output $assocList
   }
   
@@ -89,15 +89,15 @@ function Get-PTA {
     Write-Output $assocFile
   }
   else {
-    Write-Verbose "Get Protocol Type Association List"
+    Write-Verbose 'Get Protocol Type Association List'
 
     $assocList = Get-ChildItem HKCU:\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\* |
-    ForEach-Object {
-      $progId = (Get-ItemProperty "$($_.PSParentPath)\$($_.PSChildName)\UserChoice" -ErrorAction SilentlyContinue).ProgId
-      if ($progId) {
-        "$($_.PSChildName), $progId"
+      ForEach-Object {
+        $progId = (Get-ItemProperty "$($_.PSParentPath)\$($_.PSChildName)\UserChoice" -ErrorAction SilentlyContinue).ProgId
+        if ($progId) {
+          "$($_.PSChildName), $progId"
+        }
       }
-    }
     Write-Output $assocList
   }
 }
@@ -111,7 +111,7 @@ function Register-FTA {
     $ProgramPath,
 
     [Parameter( Position = 1, Mandatory = $true)]
-    [Alias("Protocol")]
+    [Alias('Protocol')]
     [String]
     $Extension,
     
@@ -124,9 +124,9 @@ function Register-FTA {
     $Icon
   )
 
-  Write-Verbose "Register Application + Set Association"
+  Write-Verbose 'Register Application + Set Association'
   Write-Verbose "Application Path: $ProgramPath"
-  if ($Extension.Contains(".")) {
+  if ($Extension.Contains('.')) {
     Write-Verbose "Extension: $Extension"
   }
   else {
@@ -134,7 +134,7 @@ function Register-FTA {
   }
   
   if (!$ProgId) {
-    $ProgId = "SFTA." + [System.IO.Path]::GetFileNameWithoutExtension($ProgramPath).replace(" ", "") + $Extension
+    $ProgId = 'SFTA.' + [System.IO.Path]::GetFileNameWithoutExtension($ProgramPath).replace(' ', '') + $Extension
   }
   
   $progCommand = """$ProgramPath"" ""%1"""
@@ -145,11 +145,11 @@ function Register-FTA {
     $keyPath = "HKEY_CURRENT_USER\SOFTWARE\Classes\$Extension\OpenWithProgids"
     [Microsoft.Win32.Registry]::SetValue( $keyPath, $ProgId, ([byte[]]@()), [Microsoft.Win32.RegistryValueKind]::None)
     $keyPath = "HKEY_CURRENT_USER\SOFTWARE\Classes\$ProgId\shell\open\command"
-    [Microsoft.Win32.Registry]::SetValue($keyPath, "", $progCommand)
-    Write-Verbose "Register ProgId and ProgId Command OK"
+    [Microsoft.Win32.Registry]::SetValue($keyPath, '', $progCommand)
+    Write-Verbose 'Register ProgId and ProgId Command OK'
   }
   catch {
-    throw "Register ProgId and ProgId Command FAIL"
+    throw 'Register ProgId and ProgId Command FAIL'
   }
   
   Set-FTA -ProgId $ProgId -Extension $Extension -Icon $Icon
@@ -160,7 +160,7 @@ function Remove-FTA {
   [CmdletBinding()]
   param (
     [Parameter(Mandatory = $true)]
-    [Alias("ProgId")]
+    [Alias('ProgId')]
     [String]
     $ProgramPath,
 
@@ -230,7 +230,7 @@ function Remove-FTA {
   }
 
   if (Test-Path -Path $ProgramPath) {
-    $ProgId = "SFTA." + [System.IO.Path]::GetFileNameWithoutExtension($ProgramPath).replace(" ", "") + $Extension
+    $ProgId = 'SFTA.' + [System.IO.Path]::GetFileNameWithoutExtension($ProgramPath).replace(' ', '') + $Extension
   }
   else {
     $ProgId = $ProgramPath
@@ -253,7 +253,7 @@ function Remove-FTA {
   try {
     $keyPath = "HKCU:\SOFTWARE\Classes\$Extension\OpenWithProgids"
     Write-Verbose "Remove Property If Exist: $keyPath Property $ProgId"
-    Remove-ItemProperty -Path $keyPath -Name $ProgId  -ErrorAction Stop | Out-Null
+    Remove-ItemProperty -Path $keyPath -Name $ProgId -ErrorAction Stop | Out-Null
     
   }
   catch {
@@ -274,7 +274,7 @@ function Set-FTA {
     $ProgId,
 
     [Parameter(Mandatory = $true)]
-    [Alias("Protocol")]
+    [Alias('Protocol')]
     [String]
     $Extension,
       
@@ -286,7 +286,7 @@ function Set-FTA {
   )
   
   if (Test-Path -Path $ProgId) {
-    $ProgId = "SFTA." + [System.IO.Path]::GetFileNameWithoutExtension($ProgId).replace(" ", "") + $Extension
+    $ProgId = 'SFTA.' + [System.IO.Path]::GetFileNameWithoutExtension($ProgId).replace(' ', '') + $Extension
   }
 
   Write-Verbose "ProgId: $ProgId"
@@ -313,29 +313,6 @@ function Set-FTA {
     catch {} 
   }
   
-
-  function local:Set-Icon {
-    param (
-      [Parameter( Position = 0, Mandatory = $True )]
-      [String]
-      $ProgId,
-
-      [Parameter( Position = 1, Mandatory = $True )]
-      [String]
-      $Icon
-    )
-
-    try {
-      $keyPath = "HKEY_CURRENT_USER\SOFTWARE\Classes\$ProgId\DefaultIcon"
-      [Microsoft.Win32.Registry]::SetValue($keyPath, "", $Icon) 
-      Write-Verbose "Write Reg Icon OK"
-      Write-Verbose "Reg Icon: $keyPath"
-    }
-    catch {
-      Write-Verbose "Write Reg Icon Fail"
-    }
-  }
-
 
   function local:Write-ExtensionKeys {
     param (
@@ -406,12 +383,12 @@ function Set-FTA {
 
     try {
       $keyPath = "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\$Extension\UserChoice"
-      [Microsoft.Win32.Registry]::SetValue($keyPath, "Hash", $ProgHash)
-      [Microsoft.Win32.Registry]::SetValue($keyPath, "ProgId", $ProgId)
-      Write-Verbose "Write Reg Extension UserChoice OK"
+      [Microsoft.Win32.Registry]::SetValue($keyPath, 'Hash', $ProgHash)
+      [Microsoft.Win32.Registry]::SetValue($keyPath, 'ProgId', $ProgId)
+      Write-Verbose 'Write Reg Extension UserChoice OK'
     }
     catch {
-      throw "Write Reg Extension UserChoice FAIL"
+      throw 'Write Reg Extension UserChoice FAIL'
     }
   }
 
@@ -445,12 +422,12 @@ function Set-FTA {
 
     try {
       $keyPath = "HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\$Protocol\UserChoice"
-      [Microsoft.Win32.Registry]::SetValue( $keyPath, "Hash", $ProgHash)
-      [Microsoft.Win32.Registry]::SetValue($keyPath, "ProgId", $ProgId)
-      Write-Verbose "Write Reg Protocol UserChoice OK"
+      [Microsoft.Win32.Registry]::SetValue( $keyPath, 'Hash', $ProgHash)
+      [Microsoft.Win32.Registry]::SetValue($keyPath, 'ProgId', $ProgId)
+      Write-Verbose 'Write Reg Protocol UserChoice OK'
     }
     catch {
-      throw "Write Reg Protocol UserChoice FAIL"
+      throw 'Write Reg Protocol UserChoice FAIL'
     }
     
   }
@@ -459,15 +436,15 @@ function Set-FTA {
   function local:Get-UserExperience {
     [OutputType([string])]
       
-    $userExperienceSearch = "User Choice set via Windows User Experience"
-    $user32Path = [Environment]::GetFolderPath([Environment+SpecialFolder]::SystemX86) + "\Shell32.dll"
+    $userExperienceSearch = 'User Choice set via Windows User Experience'
+    $user32Path = [Environment]::GetFolderPath([Environment+SpecialFolder]::SystemX86) + '\Shell32.dll'
     $fileStream = [System.IO.File]::Open($user32Path, [System.IO.FileMode]::Open, [System.IO.FileAccess]::Read, [System.IO.FileShare]::ReadWrite)
     $binaryReader = New-Object System.IO.BinaryReader($fileStream)
     [Byte[]] $bytesData = $binaryReader.ReadBytes(5mb)
     $fileStream.Close()
     $dataString = [Text.Encoding]::Unicode.GetString($bytesData)
     $position1 = $dataString.IndexOf($userExperienceSearch)
-    $position2 = $dataString.IndexOf("}", $position1)
+    $position2 = $dataString.IndexOf('}', $position1)
 
     Write-Output $dataString.Substring($position1, $position2 - $position1 + 1)
   }
@@ -482,7 +459,7 @@ function Set-FTA {
   #use in this special case
   #https://github.com/DanysysTeam/PS-SFTA/pull/7
   function local:Get-UserSidDomain {
-    if (-not ("System.DirectoryServices.AccountManagement" -as [type])) {
+    if (-not ('System.DirectoryServices.AccountManagement' -as [type])) {
       Add-Type -AssemblyName System.DirectoryServices.AccountManagement
     }
     [OutputType([string])]
@@ -500,7 +477,7 @@ function Set-FTA {
     $fileTime = $dateTime.ToFileTime()
     $hi = ($fileTime -shr 32)
     $low = ($fileTime -band 0xFFFFFFFFL)
-    $dateTimeHex = ($hi.ToString("X8") + $low.ToString("X8")).ToLower()
+    $dateTimeHex = ($hi.ToString('X8') + $low.ToString('X8')).ToLower()
     Write-Output $dateTimeHex
   }
   
@@ -527,7 +504,7 @@ function Set-FTA {
         Write-Output (( $iValue -shr $iCount) -bxor 0xFFFF0000)
       }
       else {
-        Write-Output  ($iValue -shr $iCount)
+        Write-Output ($iValue -shr $iCount)
       }
     }
     
@@ -563,8 +540,8 @@ function Set-FTA {
     [Byte[]] $bytesMD5 = $MD5.ComputeHash($bytesBaseInfo)
     
     $lengthBase = ($baseInfo.Length * 2) + 2 
-    $length = (($lengthBase -band 4) -le 1) + (Get-ShiftRight $lengthBase  2) - 1
-    $base64Hash = ""
+    $length = (($lengthBase -band 4) -le 1) + (Get-ShiftRight $lengthBase 2) - 1
+    $base64Hash = ''
 
     if ($length -gt 1) {
     
@@ -653,7 +630,7 @@ function Set-FTA {
   }
 
   Write-Verbose "Getting Hash For $ProgId   $Extension"
-  If ($DomainSID.IsPresent) { Write-Verbose  "Use Get-UserSidDomain" } Else { Write-Verbose  "Use Get-UserSid" } 
+  If ($DomainSID.IsPresent) { Write-Verbose 'Use Get-UserSidDomain' } Else { Write-Verbose 'Use Get-UserSid' } 
   $userSid = If ($DomainSID.IsPresent) { Get-UserSidDomain } Else { Get-UserSid } 
   $userExperience = Get-UserExperience
   $userDateTime = Get-HexDateTime
@@ -668,7 +645,7 @@ function Set-FTA {
   Write-Verbose "Hash: $progHash"
   
   #Handle Extension Or Protocol
-  if ($Extension.Contains(".")) {
+  if ($Extension.Contains('.')) {
     Write-Verbose "Write Registry Extension: $Extension"
     Write-ExtensionKeys $ProgId $Extension $progHash
 
@@ -680,7 +657,7 @@ function Set-FTA {
 
    
   if ($Icon) {
-    Write-Verbose  "Set Icon: $Icon"
+    Write-Verbose "Set Icon: $Icon"
     Set-Icon $ProgId $Icon
   }
 
@@ -704,4 +681,27 @@ function Set-PTA {
   )
 
   Set-FTA -ProgId $ProgId -Protocol $Protocol -Icon $Icon
+}
+
+function Set-Icon {
+  param (
+    [Parameter( Position = 0, Mandatory = $True )]
+    [String]
+    $ProgId,
+
+    [Parameter( Position = 1, Mandatory = $True )]
+    [String]`
+    $Icon
+  )
+
+  try {
+    $keyPath = "HKEY_CURRENT_USER\SOFTWARE\Classes\$ProgId\DefaultIcon"
+    [Microsoft.Win32.Registry]::SetValue($keyPath, '', $Icon) 
+    Write-Verbose 'Write Reg Icon OK'
+    Write-Verbose "Reg Icon: $keyPath"
+  }
+  catch {
+    Write-Verbose 'Write Reg Icon Fail'
+  }
+  Update-RegistryChanges
 }

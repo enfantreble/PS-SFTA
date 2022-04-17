@@ -1,0 +1,448 @@
+Windows Registry Editor Version 5.00
+
+; Created with Default Programs Editor
+; http://defaultprogramseditor.com/
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3G2\UserChoice]
+"Progid"="KMPlayer64.3G2"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3GP\UserChoice]
+"Progid"="KMPlayer64.3GP"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3GP2\UserChoice]
+"Progid"="KMPlayer64.3GP2"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.3GPP\UserChoice]
+"Progid"="KMPlayer64.3GPP"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.A52\UserChoice]
+"Progid"="KMPlayer64.A52"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AAC\UserChoice]
+"Progid"="KMPlayer64.AAC"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AC3\UserChoice]
+"Progid"="KMPlayer64.AC3"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AIF\UserChoice]
+"Progid"="KMPlayer64.AIF"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AIFC\UserChoice]
+"Progid"="KMPlayer64.AIFC"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AIFF\UserChoice]
+"Progid"="KMPlayer64.AIFF"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ALAC\UserChoice]
+"Progid"="KMPlayer64.ALAC"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AMR\UserChoice]
+"Progid"="KMPlayer64.AMR"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AMV\UserChoice]
+"Progid"="KMPlayer64.AMV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.APE\UserChoice]
+"Progid"="KMPlayer64.APE"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ASF\UserChoice]
+"Progid"="KMPlayer64.ASF"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ASS\UserChoice]
+"Progid"="KMPlayer64.ASS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ASX\UserChoice]
+"Progid"="KMPlayer64.ASX"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AU\UserChoice]
+"Progid"="KMPlayer64.AU"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AVI\UserChoice]
+"Progid"="KMPlayer64.AVI"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.AVS\UserChoice]
+"Progid"="KMPlayer64.AVS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.CDA\UserChoice]
+"Progid"="KMPlayer64.CDA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.DAT\UserChoice]
+"Progid"="KMPlayer64.DAT"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.DIVX\UserChoice]
+"Progid"="KMPlayer64.DIVX"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.DTS\UserChoice]
+"Progid"="KMPlayer64.DTS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.EVO\UserChoice]
+"Progid"="KMPlayer64.EVO"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.F4V\UserChoice]
+"Progid"="KMPlayer64.F4V"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.FLAC\UserChoice]
+"Progid"="KMPlayer64.FLAC"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.FLC\UserChoice]
+"Progid"="KMPlayer64.FLC"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.FLI\UserChoice]
+"Progid"="KMPlayer64.FLI"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.FLV\UserChoice]
+"Progid"="KMPlayer64.FLV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.GVI\UserChoice]
+"Progid"="KMPlayer64.GVI"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.HDMOV\UserChoice]
+"Progid"="KMPlayer64.HDMOV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.IDX\UserChoice]
+"Progid"="KMPlayer64.IDX"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.IFO\UserChoice]
+"Progid"="KMPlayer64.IFO"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.K3G\UserChoice]
+"Progid"="KMPlayer64.K3G"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M1A\UserChoice]
+"Progid"="KMPlayer64.M1A"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M1V\UserChoice]
+"Progid"="KMPlayer64.M1V"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M2A\UserChoice]
+"Progid"="KMPlayer64.M2A"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M2T\UserChoice]
+"Progid"="KMPlayer64.M2T"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M2TS\UserChoice]
+"Progid"="KMPlayer64.M2TS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M2V\UserChoice]
+"Progid"="KMPlayer64.M2V"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M3U\UserChoice]
+"Progid"="KMPlayer64.M3U"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M3U8\UserChoice]
+"Progid"="KMPlayer64.M3U8"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M4A\UserChoice]
+"Progid"="KMPlayer64.M4A"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M4B\UserChoice]
+"Progid"="KMPlayer64.M4B"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M4P\UserChoice]
+"Progid"="KMPlayer64.M4P"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.M4V\UserChoice]
+"Progid"="KMPlayer64.M4V"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MID\UserChoice]
+"Progid"="KMPlayer64.MID"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MK3D\UserChoice]
+"Progid"="KMPlayer64.MK3D"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MKA\UserChoice]
+"Progid"="KMPlayer64.MKA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MKV\UserChoice]
+"Progid"="KMPlayer64.MKV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MOV\UserChoice]
+"Progid"="KMPlayer64.MOV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MP+\UserChoice]
+"Progid"="KMPlayer64.MP+"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MP1\UserChoice]
+"Progid"="KMPlayer64.MP1"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MP2\UserChoice]
+"Progid"="KMPlayer64.MP2"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MP2V\UserChoice]
+"Progid"="KMPlayer64.MP2V"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MP3\UserChoice]
+"Progid"="KMPlayer64.MP3"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MP4\UserChoice]
+"Progid"="KMPlayer64.MP4"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MPA\UserChoice]
+"Progid"="KMPlayer64.MPA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MPC\UserChoice]
+"Progid"="KMPlayer64.MPC"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MPE\UserChoice]
+"Progid"="KMPlayer64.MPE"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MPEG\UserChoice]
+"Progid"="KMPlayer64.MPEG"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MPG\UserChoice]
+"Progid"="KMPlayer64.MPG"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MPP\UserChoice]
+"Progid"="KMPlayer64.MPP"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MPV2\UserChoice]
+"Progid"="KMPlayer64.MPV2"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MQV\UserChoice]
+"Progid"="KMPlayer64.MQV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MTS\UserChoice]
+"Progid"="KMPlayer64.MTS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.MTV\UserChoice]
+"Progid"="KMPlayer64.MTV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.NSA\UserChoice]
+"Progid"="KMPlayer64.NSA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.NSV\UserChoice]
+"Progid"="KMPlayer64.NSV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.OFR\UserChoice]
+"Progid"="KMPlayer64.OFR"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.OFS\UserChoice]
+"Progid"="KMPlayer64.OFS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.OGA\UserChoice]
+"Progid"="KMPlayer64.OGA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.OGG\UserChoice]
+"Progid"="KMPlayer64.OGG"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.OGM\UserChoice]
+"Progid"="KMPlayer64.OGM"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.OGV\UserChoice]
+"Progid"="KMPlayer64.OGV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.PLS\UserChoice]
+"Progid"="KMPlayer64.PLS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.QT\UserChoice]
+"Progid"="KMPlayer64.QT"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RA\UserChoice]
+"Progid"="KMPlayer64.RA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RAM\UserChoice]
+"Progid"="KMPlayer64.RAM"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RM\UserChoice]
+"Progid"="KMPlayer64.RM"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RMJ\UserChoice]
+"Progid"="KMPlayer64.RMJ"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RMM\UserChoice]
+"Progid"="KMPlayer64.RMM"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RMS\UserChoice]
+"Progid"="KMPlayer64.RMS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RMVB\UserChoice]
+"Progid"="KMPlayer64.RMVB"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RT\UserChoice]
+"Progid"="KMPlayer64.RT"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.RV\UserChoice]
+"Progid"="KMPlayer64.RV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SKM\UserChoice]
+"Progid"="KMPlayer64.SKM"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SMI\UserChoice]
+"Progid"="KMPlayer64.SMI"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SND\UserChoice]
+"Progid"="KMPlayer64.SND"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SPX\UserChoice]
+"Progid"="KMPlayer64.SPX"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SRT\UserChoice]
+"Progid"="KMPlayer64.SRT"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SSA\UserChoice]
+"Progid"="KMPlayer64.SSA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SUB\UserChoice]
+"Progid"="KMPlayer64.SUB"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.SWF\UserChoice]
+"Progid"="KMPlayer64.SWF"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.TP\UserChoice]
+"Progid"="KMPlayer64.TP"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.TPR\UserChoice]
+"Progid"="KMPlayer64.TPR"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.TS\UserChoice]
+"Progid"="KMPlayer64.TS"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.TTA\UserChoice]
+"Progid"="KMPlayer64.TTA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.VOB\UserChoice]
+"Progid"="KMPlayer64.VOB"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.VP6\UserChoice]
+"Progid"="KMPlayer64.VP6"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WAV\UserChoice]
+"Progid"="KMPlayer64.WAV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WAVE\UserChoice]
+"Progid"="KMPlayer64.WAVE"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WAX\UserChoice]
+"Progid"="KMPlayer64.WAX"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WEBM\UserChoice]
+"Progid"="KMPKMPlayer64X.WEBM"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WM\UserChoice]
+"Progid"="KMPlayer64.WM"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WMA\UserChoice]
+"Progid"="KMPlayer64.WMA"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WMP\UserChoice]
+"Progid"="KMPlayer64.WMP"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WMV\UserChoice]
+"Progid"="KMPlayer64.WMV"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WMX\UserChoice]
+"Progid"="KMPlayer64.WMX"
+
+; Set Default Program
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.WV\UserChoice]
+"Progid"="KMPlayer64.WV"
